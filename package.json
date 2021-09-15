@@ -38,9 +38,10 @@
     "@babel/plugin-transform-object-assign": "^7.2.0",
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
-    "@material-ui/core": "^4.4.2",
-    "@material-ui/icons": "^4.9.1",
-    "@material-ui/lab": "^4.0.0-alpha.47",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.0.0-rc.0",
+    "@mui/material": "^5.0.0-rc.0",
     "@storybook/addon-actions": "^5.3.17",
     "@storybook/addon-links": "^5.3.17",
     "@storybook/addons": "^5.3.17",
@@ -48,15 +49,13 @@
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.1.0",
     "coveralls": "^3.0.1",
-    "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.14.0",
     "jest": "^25.2.3",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "standard": "^14.3.3"
   },
   "peerDependencies": {
-    "@material-ui/core": "^1.0.0 || ^3.0.0 || ^4.0.0",
+    "@mui/material": "^1.0.0 || ^3.0.0 || ^4.0.0",
     "react": "^16.3.0 || ^17.0.0"
   },
   "dependencies": {
